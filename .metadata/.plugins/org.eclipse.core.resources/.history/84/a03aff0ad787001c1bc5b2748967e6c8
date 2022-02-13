@@ -1,0 +1,31 @@
+package com.capgemini.sfdc.day2;
+
+public class CalcDemo {
+	public static void printNum() { 
+		System.out.println("10");
+	}
+	public static void printSum(int a, int b) { 
+		System.out.println(a + b);
+	}
+	public static int returnNum() { 
+		int c=10;
+		
+		return   c;
+	}
+	public static int returnSum(int  sum1) { 
+		int e=15;
+		int f=16;
+		return e +f;
+	}
+	  
+	
+//		
+	 public static void main(String[] args) {
+		 printNum();	
+		String output = returnHello();
+		System.out.println(output);
+		String output2 = returnHelloWithName("Monu"); 
+		System.out.println(output2);
+
+	}
+}

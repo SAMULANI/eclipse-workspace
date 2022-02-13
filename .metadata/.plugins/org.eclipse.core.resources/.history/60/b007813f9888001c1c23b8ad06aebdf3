@@ -1,0 +1,15 @@
+package com.capgemini.sfdc.str;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num=13;
+	
+         String str = "Suresh";
+         System.out.println(str.charAt(2));
+         System.out.println(str.length());
+         
+	}
+
+}
